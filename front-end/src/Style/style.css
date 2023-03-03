@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.text-todo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.grid-todo {
+    display: flex;
+    flex-direction: column;
+}
+
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.btn-del {
+    outline: none;
+    border: none;
+    background-color: crimson;
+    height: 1.5rem;
+    width: 3.5rem;
+    border-radius: 2.5px;
+    color: #fff;
+    margin-right: 0.3rem;
+}
+
+.btn-upd {
+    outline: none;
+    border: none;
+    background-color: #0094a4;
+    height: 1.5rem;
+    width: 3.5rem;
+    border-radius: 2.5px;
+    color: #fff;
+}
+
+.todo-submit {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    border-radius: 2px;
+    padding-bottom: 20px;
+}
+
+.div-com {
+    width: 95%;
+}
+
+.submit {
+    margin-top: 1rem;
+}
+
+.inputTodo {
+    outline: none;
+    height: 1.5rem;
+    border: 2px solid black;
+}
+
+.btn {
+    outline: none;
+    width: 3rem;
+    background-color: #4627ff;
+    color: #fff;
+    height: 1.85rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.text-task {
+    color: #fff;
+    height: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: #ffb020;
+}
+
+.contanier {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 16px;
+}
+
+.topnav .link {
+    color: #000;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 17px;
+}
+
+.topnav .link:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+.topnav .link:active {
+    background-color: #000;
+    color: #eee;
+}
+
+.formAuth {
+    display: flex;
+    justify-content: center;
+}
+
+.input[type=text],
+.input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.input[type=text]:focus,
+.input[type=password]:focus {
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signupbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+.error {
+    padding: 10px;
+    border: 1px solid #e7195a;
+    border-radius: 3px;
+    background-color: #ffefef;
+    color: #e7195a;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
